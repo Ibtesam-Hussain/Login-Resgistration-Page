@@ -1,7 +1,8 @@
 # Login/Regiatration Page Using HTML/CSS/JavaScript
 
-**Here's a video demonstration**
+- Different HTML pages of both Registration and Login
+- Responsive CSS
+- Handle all type of errors which will occur on user input by the help of JavaScript
 
 
-https://github.com/Ibtesam-Hussain/Login-Resgistration-Page/assets/142915940/13739270-99cb-41ec-92a4-244d4a20fd3d
 
