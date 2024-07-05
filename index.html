@@ -1,54 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Login Page</title>
-        <link rel="stylesheet" href="style.css" />
-    </head>
-    <body>
-        <video autoplay muted loop id="myVideo">
-            <source src="earth101.mp4" type="video/mp4">
-        </video>
-        <div class="container">
-            <div class="heading">
-                <h1 id="h1">LogIn</h1>
-            </div>
-            <div class="input">
-                <form>
-                    <input type="text" id="email" placeholder="Email">
-                    <input type="password" id="pwd" placeholder="Password">
-                    
-                </form>
-                
-            </div>
-            <div class="tick">
-                <input type="checkbox" id="tick" onclick="myFunction()">Show Password
-            </div>
-            <div class="forgotPass">
-                <label><input type="checkbox">
-                    Remember Me!
-                </label>
-                <a href="#" id="Fpass">Forgot password?</a>
-            </div>
-            <div class="btn">
-                <button id="loginbtn">
-                    LOGIN!
-                </button>
-            </div>
-            <div class="register">
-                <p>Don't have account?</p>
-                <a href="./register">Register Here!</a>
-            </div>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <video autoplay muted loop id="myVideo">
+        <source src="earth101.mp4" type="video/mp4">
+    </video>
+    <div class="container">
+        <div class="heading">
+            <h1 id="h1">LogIn</h1>
         </div>
-
-
-
-
-
-
-
-
-        <script src="practice.js"></script>
-    </body>
+        <div class="input">
+            <form>
+                <input type="text" id="email" placeholder="Email">
+                <input type="password" id="pwd" placeholder="Password">
+            </form>
+        </div>
+        <div class="tick">
+            <input type="checkbox" id="tick" onclick="myFunction()">Show Password
+        </div>
+        <div class="forgotPass">
+            <label><input type="checkbox"> Remember Me!</label>
+            <a href="#" id="Fpass">Forgot password?</a>
+        </div>
+        <div class="btn">
+            <button id="loginbtn">LOGIN!</button>
+        </div>
+        <div class="register">
+            <p>Don't have an account?</p>
+            <a href="./register">Register Here!</a>
+        </div>
+    </div>
+    <script src="practice.js"></script>
+</body>
 </html>
