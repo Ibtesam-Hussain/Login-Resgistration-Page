@@ -1,0 +1,263 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body #myVideo {
+    width: 100vw;
+    height: 100vh;
+    object-fit:fill;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+
+
+
+.container{
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 6rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    backdrop-filter: blur(5px);
+    box-shadow: 0 0 100px rgba(0, 0, 0, 0.5);
+    color: white
+}
+
+.heading {
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+.tick{
+   margin-top: 10px;
+   margin-right: 10px;
+   margin-bottom: 20px;
+   accent-color: black;
+   margin-left: 20px;
+}
+
+.Reginput form ::placeholder{
+    color: white;
+    opacity: 0.7;
+    
+}
+
+.Reginput #email {
+    padding-top: 10px;
+    color:  white;
+    width: 100%;
+    height: 100%;
+    border-bottom-color: white;
+    border-top-color: transparent;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    outline: none;
+    background: transparent;
+    padding-bottom: 10px;
+}
+
+
+
+.Reginput #pwd{
+    color:  white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    height: 100%;
+    border-bottom-color: white;
+    border-top-color: transparent;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    outline: none;
+    background: transparent;
+    
+}
+
+
+.input #email{
+    padding-top: 10px;
+    color:  white;
+    width: 100%;
+    height: 100%;
+    border-bottom-color: white;
+    border-top-color: transparent;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    outline: none;
+    background: transparent;
+    
+    
+    padding-bottom: 10px;
+}
+
+.input #pwd{
+    color:  white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    height: 100%;
+    border-bottom-color: white;
+    border-top-color: transparent;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    outline: none;
+    background: transparent;
+    
+}
+
+.Reginput #pwd{
+    color:  white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    height: 100%;
+    border-bottom-color: white;
+    border-top-color: transparent;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    outline: none;
+    background: transparent;
+    
+}
+
+.Reginput #username{
+    color:  white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    height: 100%;
+    border-bottom-color: white;
+    border-top-color: transparent;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    outline: none;
+    background: transparent;
+}
+
+.Reginput #Confpwd{
+    color:  white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    height: 100%;
+    border-bottom-color: white;
+    border-top-color: transparent;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    outline: none;
+    background: transparent;
+}
+
+.input {
+    padding: 1rem;
+    
+}
+
+
+
+.forgotPass label {
+    text-align: center; 
+    align-items: center;
+    padding-right: 2rem;
+    font-size: small;
+    accent-color: black;
+}
+.forgotPass a{
+    color: white;
+    text-decoration: none;
+    transition: 0.4s;
+}
+
+.forgotPass a:hover
+{
+    text-decoration: underline;
+    
+}
+.forgotPass {
+    padding: 0 3rem 3rem 3rem ;
+    
+}
+
+.btn #loginbtn, #Register{
+    width: 100%;
+    height: 40px;
+    
+}
+
+#loginbtn {
+    background-color: rgb(33, 33, 33);
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: 0.4s;
+    opacity: 100%;
+}
+
+#Register{
+    background-color: rgb(33, 33, 33);
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: 0.4s;
+    opacity: 100%;
+}
+
+#loginbtn:hover {
+    opacity: 0.7;
+}
+
+#Register:hover {
+    opacity: 0.7;
+    
+}
+
+.register {
+    display: flex;
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.Signup {
+    display: flex;
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.register p{
+    padding-right: 3rem;
+}
+
+.Signup p {
+    padding-right: 3rem;
+}
+
+.register a{
+    text-decoration: none;
+    color: white;
+}
+
+.Signup a{
+    text-decoration: none;
+    color: white;
+}
+
+.register a:hover{
+    text-decoration: underline;
+}
+
+.Signup a:hover{
+    text-decoration: underline;
+}
